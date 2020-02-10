@@ -1,0 +1,119 @@
+h1{
+    font-family: 'Sriracha', cursive;
+    align-self: center;
+    font-size: 130px;
+    text-align: center;
+}
+p{
+    font-size: large;
+}
+#tag_line{
+    font-size: 30px;
+    text-align: center;
+}
+@media (max-width: 600px){
+    .container{
+        display: grid;
+        grid-template-columns: 50px 50px;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        
+        /* border: thick dotted green; */
+    }
+    .container1{
+        width: 300px;
+        height: 950px;
+        
+    }
+    h1{
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .container{
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        
+        /* border: thick dotted green; */
+    }
+    h1{
+        font-size: 30px;
+    }
+    .container1{
+        width: 300px;
+        height: 950px;
+        
+    }
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 800px 100px;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    /* border: thick dotted green; */
+}
+.container1{
+    width: 700px;
+    height: 950px;
+    
+}
+.types_new_left{
+    grid-area: 1/1;
+}
+.types_new_right{
+    grid-area: 1/2;
+}
+#beans_pic{
+    grid-area: 1/2/span 5/span 1;
+}
+.left_align{
+    justify-items: left;
+}
+#history_head{
+    grid-area: 6/2/span 1/span 1;
+    font-size: larger;
+    font-family: 'Lobster', cursive;
+}
+#history_cont{
+    grid-area: 7/2/span 1/span1;
+    justify-self: left
+}
+#coffee_production{
+    grid-area: 8/2/span 1/span 1;
+    font-family: 'Lobster', cursive;
+    
+}
+#coffee_product{
+    grid-area: 9/2/span 1/ span 1;
+}
+#types{
+    grid-area: 10/2/span 1/span 2;
+    font-family: 'Lobster', cursive;
+}
+#first_list{
+    grid-area: 11/2/ span 15/ span 1;
+}
+.list_float{
+    float: left;
+    margin-bottom: 10px;
+    
+}
+.right_desc{
+    float: right;
+    clear: right;
+}
+.list_float1{
+    clear: left;
+    float: left;
+    margin-bottom: 10px;
+}
+.last_line{
+    grid-area: 1/1/span 1/ span 1;
+}

@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 800px 100px;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    /* background-image: url('https://unsplash.com/photos/pMW4jzELQCw'); */
+    
+    background-color: #795548;
+}
+.container1{
+    margin-top: 70px;
+    display: flex;
+    width: 500px;
+    border: thick dashed brown;
+    height: 200px;
+    flex-direction: row;
+    grid-area: 1/2/span 1/span 3;
+    flex: auto;
+    justify-content: space-between;
+    align-content:center;
+}
+#capuccino{
+    align-self: center;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+}
+.capuccino_para{
+    grid-area: 2/2/span 3/span 2;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    color: white;
+}
+#video1{
+    grid-area: 5/2/span 3/ span 2;
+}
